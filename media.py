@@ -10,13 +10,13 @@ class Media(object):
     """ Provides a template for different media classes.
     
     Attributes:
-        title: A string containing the title of the media item.
-        description: A string containing a short description of the media
-            item.
-        image_url: A string containing the URL for an image representing the 
-            item
-        trailer_youtube_url: A string containing the URL for a video trailer
-            for the item.
+        title (str): A string containing the title of the media item.
+        description (str): A string containing a short description of the 
+            media item.
+        image_url (str): A string containing the URL for an image 
+            representing the item
+        trailer_youtube_url (str): A string containing the URL for a video 
+            trailer for the item.
     """
     
     def __init__(self, title, description, image_url, trailer_youtube):
@@ -35,7 +35,8 @@ class Movie(Media):
     """ Stores information on a specific movie.
     
     Attributes:
-        rating: A string containing the parent guidance rating for the movie.
+        rating (str): A string containing the parent guidance rating for 
+            the movie.
     """    
 
     def __init__(self, title, description, image_url, trailer_youtube, rating):
@@ -59,9 +60,9 @@ class TVShow(Media):
     """ Stores information on a specific TV show.
 
     Attributes:
-        network: A string containing the name of the network on which the
-            show airs.
-        num_of_seasons: An integer giving the number of seasons the show
+        network (str): A string containing the name of the network on which 
+            the show airs.
+        num_of_seasons (int): An number giving the number of seasons the show
             was on, or the number of the current season if it is still
             currently on.          
     """     
