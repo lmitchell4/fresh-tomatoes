@@ -5,7 +5,6 @@
 This Python program generates a website that displays trailers for movies 
 and TV shows.
 
-![Fresh Tomatoes Screenshot]() 
 
 ## Installation
 
@@ -31,7 +30,7 @@ use the file fresh\_tomatoes.py.
 
 ## License
 
-This project is released under [the MIT License]().
+This project is released under [the MIT License](https://github.com/lmitchell4/fresh-tomatoes/blob/master/LICENSE.txt).
 
 
 
