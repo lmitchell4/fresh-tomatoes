@@ -47,7 +47,6 @@ class Movie(Media):
         """ Displays the rating of the movie."""
 
         super(Movie, self).show_info()
-        ##Media.show_info(self)
         print("Rating: " + self.rating)
     
     def show_trailer(self):
@@ -77,7 +76,6 @@ class TVShow(Media):
         """ Displays the network and number of seasons. """
 
         super(TVShow, self).show_info()
-        ##Media.show_info(self)
         print("Network: " + self.network + "\nNumber of seasons: " + 
               str(self.num_of_seasons))
 
